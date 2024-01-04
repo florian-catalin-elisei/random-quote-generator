@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  width: 600px;
+}
+
+.App-heading {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.App-content {
+  margin: 35px 0;
+}
+
+.App-quote-content {
+  display: flex;
+  justify-content: center;
+}
+
+.App-quote-content i {
+  font-size: 15px;
+}
+
+.App-quote-content i:first-child {
+  display: flex;
+  margin: 5px 10px 0 0;
+}
+
+.App-quote-content i:last-child {
+  align-items: flex-end;
+  display: flex;
+  margin: 0 0 5px 10px;
+}
+
+.App-quote {
+  font-size: 20px;
+}
+
+.App-author-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.App-author-content span:first-child {
+  font-family: monospace;
+  margin: -2px 5px 0 0;
+}
+
+.App-author {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.App-button-content {
+  border-top: 1px solid #ccc;
+}
+
+.App-button {
+  background: #5372f0;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 20px;
+  outline: none;
+  padding: 12px 22px;
+  transition: all 0.2s ease;
+}
+
+.App-button:hover {
+  background: rgba(83, 114, 240, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    width: 300px;
+  }
+}
