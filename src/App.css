@@ -1,75 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-* {
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.App {
-  background: #fff;
+.Quote {
+  background-color: #fff;
   border-radius: 15px;
   padding: 30px;
   text-align: center;
-  width: 600px;
+  width: 500px;
 }
 
-.App-heading {
+.Quote-heading {
   font-size: 35px;
   font-weight: 600;
 }
 
-.App-content {
-  margin: 35px 0;
+.Quote-content {
+  padding: 35px 0;
 }
 
-.App-quote-content {
+.Quote-quote-content {
   display: flex;
   justify-content: center;
 }
 
-.App-quote-content i {
+.fa-quote-left,
+.fa-quote-right {
   font-size: 15px;
 }
 
-.App-quote-content i:first-child {
-  display: flex;
+.fa-quote-left {
   margin: 5px 10px 0 0;
 }
 
-.App-quote-content i:last-child {
-  align-items: flex-end;
-  display: flex;
+.fa-quote-right {
   margin: 0 0 5px 10px;
 }
 
-.App-quote {
+.Quote-quote {
   font-size: 20px;
 }
 
-.App-author-content {
+.Quote-author-content {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
 }
 
-.App-author-content span:first-child {
-  font-family: monospace;
-  margin: -2px 5px 0 0;
+.Quote-author-dash {
+  margin: 2px 5px 0 0;
 }
 
-.App-author {
+.Quote-author {
   font-size: 18px;
   font-style: italic;
 }
 
-.App-button-content {
+.Quote-button-content {
   border-top: 1px solid #ccc;
 }
 
-.App-button {
-  background: #5372f0;
+.Quote-button {
+  background-color: #5372f0;
   border-radius: 30px;
   border: none;
   color: #fff;
@@ -77,16 +65,11 @@
   font-size: 15px;
   margin-top: 20px;
   outline: none;
-  padding: 12px 22px;
-  transition: all 0.2s ease;
+  padding: 10px 20px;
 }
 
-.App-button:hover {
-  background: rgba(83, 114, 240, 0.8);
-}
-
-@media only screen and (max-width: 768px) {
-  .App {
+@media only screen and (max-width: 600px) {
+  .Quote {
     width: 300px;
   }
 }
