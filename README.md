@@ -2,7 +2,6 @@
 
 The Random Quote Generator is a simple React application designed to provide users with daily inspiration by displaying a random quote and its author. This project using the Quotes API from api-ninjas.com to fetch diverse and thought-provoking quotes. Users can easily obtain a new quote by clicking the "New Quote" button.
 
-
 ## Installation
 
 Install my-project with npm
@@ -25,22 +24,10 @@ Install my-project with npm
   npm install
 ```
 
-or
-
-```bash
-  yarn install
-```
-
 4. Start the development server:
 
 ```bash
   npm start
-```
-
-or
-
-```bash
-  yarn start
 ```
 
 ## Environment Variables
